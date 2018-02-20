@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/* Above CSS Resets */
+
+
+/*
+    ===================================
+    Grid
+    ===================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+    margin: 0 150px 40px 150px;
+    padding: 10px;
+}
+
+.cleft {
+    width: 350px;
+    height: 648px;
+}
+
+.grid {
+    width: 540px;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 10px;
+    width: 900px;
+}
+
+
+p {
+    padding: 5px 0;
+}
+
+
+
+
+
+/*
+    ===================================
+    Clearfix
+    ===================================
+*/
+
+
+
+/*
+    ===================================
+    Typography
+    ===================================
+*/
+
+
+.small {
+    position: absolute;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    top: 60px;
+    width: 118px;
+    background: white;
+    margin-left:108px;
+}
+
+.big {
+    position: relative;
+    font-size: 150px;
+    text-align: center;
+    top: 16px;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    line-height: 18px
+}
+
+
+.up {
+    position: relative;
+    border: 2px solid black;
+    background: white;
+}
+
+.down {
+    padding: 0 0;
+}
+
+.cleft,
+.cright {
+    display: inline-block;
+    border: 2px solid black;
+    background: white;
+    padding: 10px;
+}
+
+.cleft {
+    float: left;
+    margin-right: 10px;
+}
+
+.grid {
+    float: right;
+}
+
+.cright {
+    margin-bottom: 10px;
+}
+
+/*
+    ===================================
+    Primary header
+    ===================================
+*/
+
+
+    

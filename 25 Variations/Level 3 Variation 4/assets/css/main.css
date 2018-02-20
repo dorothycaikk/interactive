@@ -1,0 +1,75 @@
+
+
+
+/*
+    ===================================
+    Grid
+    ===================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    width: 10px;
+    display: inline-block;
+}
+
+.layout {
+    display: inline-block;
+}
+
+.FaceDiv {
+    position: absolute;
+    border: 3px solid black;
+    padding: 20px 30px;
+    top: 10px;
+    width: 700px;
+    background: white;
+    margin: 240px 360px;
+    
+}
+
+.MiddleDiv {
+    position: absolute;
+    padding: 20px;
+    top: 10px;
+    width: 800px;
+    background: white;
+    margin: 200px 310px;
+    height: 350px;
+}
+
+.BackDiv {
+    position: relative;
+    
+    
+}
+
+
+
+/*
+    ===================================
+    Clearfix
+    ===================================
+*/
+
+
+    
+
+/*
+    ===================================
+    Primary header
+    ===================================
+*/
+
+
+    
