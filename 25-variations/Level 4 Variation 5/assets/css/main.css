@@ -1,0 +1,825 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/* Above CSS Resets */
+
+
+/*
+    ===================================
+    Grid
+    ===================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    float: left;
+}
+
+.grid {
+    position: absolute;
+    float: right;
+    margin-right:50px;
+    padding: 10px;
+    top: 0;
+    padding-left: 870px;
+}
+
+.column {
+    border: 2px solid black;
+    width: 510px;
+    padding: 20px;
+    margin-bottom: 20px
+
+}
+
+
+
+/*
+    ===================================
+    Clearfix
+    ===================================
+*/
+
+
+
+/*
+    ===================================
+    Typography
+    ===================================
+*/
+
+
+.small {
+    position: absolute;
+    height: 21px;
+    font-size: 15px;
+    font-weight: 700;
+    top: 130px;
+    background: white;
+    padding-left: 278px;
+    width: 740px;
+}
+
+.big {
+    position: relative;
+    font-size: 150px;
+    text-align: center;
+    top: 16px;
+}
+
+.subtitle {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    top: 210px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 18px
+}
+
+.container {
+    font-family: monospace;
+    border: 2px solid black;
+    width: 800px;
+    padding: 30px;
+}
+
+.grid {
+    font-family: monospace;
+}
+
+
+
+.occupied1 {
+    position: absolute;
+    margin-left: 50px;
+    top: 320px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied2 {
+    position: absolute;
+    margin-left: 50px;
+    top: 340px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied3 {
+    position: absolute;
+    margin-left: 50px;
+    top: 360px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied4 {
+    position: absolute;
+    margin-left: 50px;
+    top: 380px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied5 {
+    position: absolute;
+    margin-left: 50px;
+    top: 400px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied6 {
+    position: absolute;
+    margin-left: 50px;
+    top: 420px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied7 {
+    position: absolute;
+    margin-left: 50px;
+    top: 440px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied8 {
+    position: absolute;
+    margin-left: 50px;
+    top: 460px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied9 {
+    position: absolute;
+    margin-left: 50px;
+    top: 480px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied10 {
+    position: absolute;
+    margin-left: 50px;
+    top: 500px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied11 {
+    position: absolute;
+    margin-left: 50px;
+    top: 520px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied12 {
+    position: absolute;
+    margin-left: 50px;
+    top: 540px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied13 {
+    position: absolute;
+    margin-left: 50px;
+    top: 560px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied14 {
+    position: absolute;
+    margin-left: 50px;
+    top: 580px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied16 {
+    position: absolute;
+    margin-left: 50px;
+    top: 600px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied17 {
+    position: absolute;
+    margin-left: 50px;
+    top: 620px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied18 {
+    position: absolute;
+    margin-left: 50px;
+    top: 640px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied19 {
+    position: absolute;
+    margin-left: 50px;
+    top: 660px;
+    width: 800px;
+    height: 80px;
+    border: 2px solid black;
+    background: #aaaaaa;
+}
+
+.occupied20 {
+    position: absolute;
+    margin-left: 50px;
+    top: 760px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied21 {
+    position: absolute;
+    margin-left: 50px;
+    top: 780px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied22 {
+    position: absolute;
+    margin-left: 50px;
+    top: 800px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied23 {
+    position: absolute;
+    margin-left: 50px;
+    top: 820px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied24 {
+    position: absolute;
+    margin-left: 50px;
+    top: 840px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied25 {
+    position: absolute;
+    margin-left: 50px;
+    top: 860px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied26 {
+    position: absolute;
+    margin-left: 50px;
+    top: 880px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied27 {
+    position: absolute;
+    margin-left: 50px;
+    top: 900px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied28 {
+    position: absolute;
+    margin-left: 50px;
+    top: 920px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied29 {
+    position: absolute;
+    margin-left: 50px;
+    top: 940px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied30 {
+    position: absolute;
+    margin-left: 50px;
+    top: 960px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+
+.occupied31 {
+    position: absolute;
+    margin-left: 50px;
+    top: 980px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied32 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1000px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied33 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1020px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied34 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1040px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied35 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1060px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied36 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1080px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied37 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1100px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied38 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1120px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied39 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1140px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied40 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1160px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+
+
+.occupied41 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1180px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied42 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1200px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied43 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1220px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied44 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1240px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied45 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1260px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied46 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1280px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied47 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1300px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied48 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1320px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied49 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1340px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied50 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1360px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+
+
+.occupied51 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1380px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied52 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1400px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied53 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1420px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied54 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1440px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied55 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1460px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied56 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1480px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied57 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1500px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied58 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1520px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied59 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1540px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied60 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1560px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+
+
+
+.occupied61 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1580px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied62 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1600px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied63 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1620px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied64 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1640px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied65 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1660px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied66 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1680px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied67 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1700px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied68 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1720px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied69 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1740px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied70 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1760px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+
+.occupied71 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1780px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied72 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1800px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied73 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1820px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied74 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1840px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied75 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1860px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied76 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1880px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied77 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1900px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied78 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1920px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied79 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1940px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+.occupied80 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1960px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+.occupied81 {
+    position: absolute;
+    margin-left: 50px;
+    top: 1980px;
+    width: 800px;
+    height: 20px;
+    border-top: 2px solid black
+}
+
+/*
+    ===================================
+    Primary header
+    ===================================
+*/
+
+
+    
