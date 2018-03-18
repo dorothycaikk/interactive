@@ -114,6 +114,55 @@ footer {
     font-style: italic;
 }
 
+#a {
+    color: red;
+}
+
+#b {
+    color: fuchsia;
+}
+
+#c {
+    color: purple;
+}
+
+#d {
+    color: navy;
+}
+
+#e {
+    color: blue;
+}
+
+#f {
+    color: teal;
+}
+
+#g {
+    color: aqua;
+}
+
+#h {
+    color: lime;
+}
+
+#i {
+    color: yellow;
+}
+
+#j {
+    color: yellowgreen;
+}
+
+#k {
+    color: olive;
+}
+
+#l {
+    color: green;
+}
+
+
 /*
     ===================================
     Primary header
