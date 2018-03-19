@@ -228,6 +228,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied9 {
     position: absolute;
     margin-left: 50px;
@@ -237,6 +238,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied10 {
     position: absolute;
     margin-left: 50px;
@@ -246,6 +248,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied11 {
     position: absolute;
     margin-left: 50px;
@@ -255,6 +258,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied12 {
     position: absolute;
     margin-left: 50px;
@@ -264,6 +268,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied13 {
     position: absolute;
     margin-left: 50px;
@@ -273,6 +278,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied14 {
     position: absolute;
     margin-left: 50px;
@@ -282,6 +288,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied16 {
     position: absolute;
     margin-left: 50px;
@@ -301,6 +308,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied18 {
     position: absolute;
     margin-left: 50px;
@@ -310,6 +318,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied19 {
     position: absolute;
     margin-left: 50px;
@@ -340,6 +349,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied22 {
     position: absolute;
     margin-left: 50px;
@@ -349,6 +359,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied23 {
     position: absolute;
     margin-left: 50px;
@@ -358,6 +369,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied24 {
     position: absolute;
     margin-left: 50px;
@@ -367,6 +379,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied25 {
     position: absolute;
     margin-left: 50px;
@@ -376,6 +389,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied26 {
     position: absolute;
     margin-left: 50px;
@@ -385,6 +399,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied27 {
     position: absolute;
     margin-left: 50px;
@@ -394,6 +409,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied28 {
     position: absolute;
     margin-left: 50px;
@@ -401,7 +417,9 @@ p {
     width: 800px;
     height: 20px;
     border-top: 2px solid black;
+    margin-top: 14px;
 }
+
 .occupied29 {
     position: absolute;
     margin-left: 50px;
@@ -411,6 +429,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied30 {
     position: absolute;
     margin-left: 50px;
@@ -421,7 +440,6 @@ p {
     margin-top: 14px;
 }
 
-
 .occupied31 {
     position: absolute;
     margin-left: 50px;
@@ -431,6 +449,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied32 {
     position: absolute;
     margin-left: 50px;
@@ -440,6 +459,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied33 {
     position: absolute;
     margin-left: 50px;
@@ -449,6 +469,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied34 {
     position: absolute;
     margin-left: 50px;
@@ -458,6 +479,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied35 {
     position: absolute;
     margin-left: 50px;
@@ -467,6 +489,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied36 {
     position: absolute;
     margin-left: 50px;
@@ -476,6 +499,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied37 {
     position: absolute;
     margin-left: 50px;
@@ -485,6 +509,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied38 {
     position: absolute;
     margin-left: 50px;
@@ -494,6 +519,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied39 {
     position: absolute;
     margin-left: 50px;
@@ -503,6 +529,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied40 {
     position: absolute;
     margin-left: 50px;
@@ -513,8 +540,6 @@ p {
     margin-top: 14px;
 }
 
-
-
 .occupied41 {
     position: absolute;
     margin-left: 50px;
@@ -524,6 +549,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied42 {
     position: absolute;
     margin-left: 50px;
@@ -533,6 +559,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied43 {
     position: absolute;
     margin-left: 50px;
@@ -542,6 +569,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied44 {
     position: absolute;
     margin-left: 50px;
@@ -551,6 +579,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied45 {
     position: absolute;
     margin-left: 50px;
@@ -560,6 +589,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied46 {
     position: absolute;
     margin-left: 50px;
@@ -569,6 +599,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied47 {
     position: absolute;
     margin-left: 50px;
@@ -578,6 +609,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied48 {
     position: absolute;
     margin-left: 50px;
@@ -587,6 +619,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied49 {
     position: absolute;
     margin-left: 50px;
@@ -596,6 +629,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied50 {
     position: absolute;
     margin-left: 50px;
@@ -606,8 +640,6 @@ p {
     margin-top: 14px;
 }
 
-
-
 .occupied51 {
     position: absolute;
     margin-left: 50px;
@@ -617,6 +649,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied52 {
     position: absolute;
     margin-left: 50px;
@@ -626,6 +659,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied53 {
     position: absolute;
     margin-left: 50px;
@@ -635,6 +669,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied54 {
     position: absolute;
     margin-left: 50px;
@@ -644,6 +679,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied55 {
     position: absolute;
     margin-left: 50px;
@@ -653,6 +689,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied56 {
     position: absolute;
     margin-left: 50px;
@@ -662,6 +699,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied57 {
     position: absolute;
     margin-left: 50px;
@@ -671,6 +709,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied58 {
     position: absolute;
     margin-left: 50px;
@@ -680,6 +719,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied59 {
     position: absolute;
     margin-left: 50px;
@@ -689,6 +729,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied60 {
     position: absolute;
     margin-left: 50px;
@@ -699,9 +740,6 @@ p {
     margin-top: 14px;
 }
 
-
-
-
 .occupied61 {
     position: absolute;
     margin-left: 50px;
@@ -711,6 +749,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied62 {
     position: absolute;
     margin-left: 50px;
@@ -720,6 +759,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied63 {
     position: absolute;
     margin-left: 50px;
@@ -729,6 +769,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied64 {
     position: absolute;
     margin-left: 50px;
@@ -738,6 +779,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied65 {
     position: absolute;
     margin-left: 50px;
@@ -747,6 +789,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied66 {
     position: absolute;
     margin-left: 50px;
@@ -756,6 +799,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied67 {
     position: absolute;
     margin-left: 50px;
@@ -765,6 +809,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied68 {
     position: absolute;
     margin-left: 50px;
@@ -774,6 +819,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied69 {
     position: absolute;
     margin-left: 50px;
@@ -783,6 +829,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied70 {
     position: absolute;
     margin-left: 50px;
@@ -793,7 +840,6 @@ p {
     margin-top: 14px;
 }
 
-
 .occupied71 {
     position: absolute;
     margin-left: 50px;
@@ -803,6 +849,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied72 {
     position: absolute;
     margin-left: 50px;
@@ -812,6 +859,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied73 {
     position: absolute;
     margin-left: 50px;
@@ -821,6 +869,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied74 {
     position: absolute;
     margin-left: 50px;
@@ -830,6 +879,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied75 {
     position: absolute;
     margin-left: 50px;
@@ -839,6 +889,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied76 {
     position: absolute;
     margin-left: 50px;
@@ -848,6 +899,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied77 {
     position: absolute;
     margin-left: 50px;
@@ -857,6 +909,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied78 {
     position: absolute;
     margin-left: 50px;
@@ -866,6 +919,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied79 {
     position: absolute;
     margin-left: 50px;
@@ -875,6 +929,7 @@ p {
     border-top: 2px solid black;
     margin-top: 14px;
 }
+
 .occupied80 {
     position: absolute;
     margin-left: 50px;
