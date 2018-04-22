@@ -84,6 +84,8 @@ table {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    overflow: hidden;
+    
 }
 
 .column-body {
@@ -211,6 +213,7 @@ a {
 
 .a4-title {
     float: left;
+    padding-top: 2vw;
 }
 
 
@@ -261,9 +264,6 @@ a {
     flex-direction: column;
 }
 
-.a4-title {
-    padding-top: 1vw;
-}
 
 
 
