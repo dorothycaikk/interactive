@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=”utf-8”>
+        <meta name="viewport" content="width=device-width">
+        <title>Room Typographic Code</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    
+    <body>
+        
+        <div class="home-bg">
+            <a class="home" href="index.html">
+                home
+            </a>
+        </div>
+        
+        <div class="r-tc-wrap">
+
+
+            <div class="r-tc3">
+                99
+            </div>
+
+            <div class="r-tc2">
+                九十九
+            </div>
+
+            <div class="r-tc1">
+                <a>NINETYNINE</a>
+            </div>
+            
+
+        </div>
+            
+        <div class="input">
+            <input class="input-code" type="text" id="code" name="name" placeholder="enter the code">
+            <input class="btn" type="button" id="btn" value="go to the next room">
+        </div>
+        <script>
+            var input = document.getElementById('code')
+            var btn = document.getElementById('btn')
+            btn.addEventListener('click', function () {
+                var value = input.value
+                if (value === '99') {
+                    window.location.href = './room-color-box.html?code=' + input.value
+                }
+                else {
+                    alert('please try again')
+                }
+            }, false)
+        </script>
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+        <script>  
+            $(function(){
+                // Create debug element
+                $("body").append("<div style='position:fixed;top:5px;left:5px;' id='viewportwidth'></div>");
+           
+                // Set contents on resizing window
+                $(window).resize(function(){$("#viewportwidth").html($(window).width());});
+           
+                // Trigger resize event
+                $(window).resize();
+            });
+        </script>
+    </body>

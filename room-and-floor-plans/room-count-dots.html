@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=”utf-8”>
+        <meta name="viewport" content="width=device-width">
+        <title>Room Count Dots</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    
+    <body>
+        
+        <div class="home-bg">
+            <a class="home" href="index.html">
+                home
+            </a>
+        </div>
+        
+        <div class="r-cd-wrap">
+            
+            <div class="r-cd">
+            
+                <div class="r-cd-dots r-cd-dots-1">
+                    <div class="r-cd-dots-in r-cd-dots-in-1">1</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-2">
+                    <div class="r-cd-dots-in r-cd-dots-in-2">2</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-3">
+                    <div class="r-cd-dots-in r-cd-dots-in-3">3</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-4">
+                    <div class="r-cd-dots-in r-cd-dots-in-4">4</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-5">
+                    <div class="r-cd-dots-in r-cd-dots-in-5">5</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-6">
+                    <div class="r-cd-dots-in r-cd-dots-in-6">6</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-7">
+                    <div class="r-cd-dots-in r-cd-dots-in-7">7</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-8">
+                    <div class="r-cd-dots-in r-cd-dots-in-8">8</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-9">
+                    <div class="r-cd-dots-in r-cd-dots-in-9">9</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-10">
+                    <div class="r-cd-dots-in r-cd-dots-in-10">10</div>
+                </div>
+                
+                <div class="r-cd-dots r-cd-dots-11">
+                    <div class="r-cd-dots-in r-cd-dots-in-11">11</div>
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        
+        <div class="input">
+            <input class="input-code" type="text" id="code" name="name" placeholder="enter the code">
+            <input class="btn" type="button" id="btn" value="go to the next room">
+        </div>
+        <script>
+            var input = document.getElementById('code')
+            var btn = document.getElementById('btn')
+            btn.addEventListener('click', function () {
+                var value = input.value
+                if (value === '11') {
+                    window.location.href = './ending.html?code=' + input.value
+                }
+                else {
+                    alert('please try again')
+                }
+            }, false)
+        </script>
+        
+        
+        
+                
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+        <script>  
+            $(function(){
+                // Create debug element
+                $("body").append("<div style='position:fixed;top:5px;left:5px;' id='viewportwidth'></div>");
+           
+                // Set contents on resizing window
+                $(window).resize(function(){$("#viewportwidth").html($(window).width());});
+           
+                // Trigger resize event
+                $(window).resize();
+            });
+        </script>
+        
+        
+        
+        
+
+
+    </body>

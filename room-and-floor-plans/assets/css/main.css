@@ -1,0 +1,833 @@
+/*
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Font declaration
+  ========================================
+*/
+
+@font-face {
+    font-family: pixelnum;
+    src: url(../fonts/pixelnum.ttf);
+}
+
+
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.lobby {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    background: -webkit-linear-gradient(to right, #fff, #333);
+    background:    -moz-linear-gradient(to right, #fff, #333);
+    background:         linear-gradient(to , #333, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lobby-door {
+    width: 20%;
+    height: 100%;
+    background: #fff;
+    background: -webkit-linear-gradient(to right, #333, #fff);
+    background:    -moz-linear-gradient(to right, #333, #fff);
+    background:         linear-gradient(to right, #000, #fff);
+    float: left;
+    margin: 0 2%;
+}
+
+.lobby-door:first-child {
+    margin: 0 2% 0 0;
+}
+
+.lobby-door:last-child {
+    margin: 0 0 0 2%;
+}
+
+.title {
+    position: absolute;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-d-wrap {
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbd {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 0 2%;
+    z-index: 3;
+}
+
+.lb-d-1:hover {
+    background: #ff5;
+    background: -webkit-linear-gradient(to right, #f9f, #ff5);
+    background:    -moz-linear-gradient(to right, #f9f, #ff5);
+    background:         linear-gradient(to right, #f9f, #ff5);
+    cursor: pointer;
+}
+
+.lb-d-2:hover {
+    background: #af5;
+    background: -webkit-linear-gradient(to right, #a9f, #af5);
+    background:    -moz-linear-gradient(to right, #a9f, #af5);
+    background:         linear-gradient(to right, #a9f, #af5);
+    cursor: pointer;
+}
+
+.lb-d-3:hover {
+    background: #5ff;
+    background: -webkit-linear-gradient(to right, #f9a, #5ff);
+    background:    -moz-linear-gradient(to right, #f9a, #5ff);
+    background:         linear-gradient(to right, #f9a, #5ff);
+    cursor: pointer;
+}
+
+.lb-d-4:hover {
+    background: #75f;
+    background: -webkit-linear-gradient(to right, #f90, #75f);
+    background:    -moz-linear-gradient(to right, #f90, #75f);
+    background:         linear-gradient(to right, #f90, #75f);
+    cursor: pointer;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+.home-bg {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-radius: 0 0 40px 40px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.home {
+    position: absolute;
+    font-family: avenir;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.home-bg:hover {
+    background: #ff5;
+    background: -webkit-linear-gradient(to right, #f9f, #ff5);
+    background:    -moz-linear-gradient(to right, #f9f, #ff5);
+    background:         linear-gradient(to right, #f9f, #ff5);
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+.title {
+    font: 100 20vw avenir;
+    letter-spacing: 0.08em;
+    color: #000;
+    text-shadow:0 0 2vw #000,
+                -0 -0 2vw #000;
+    text-align: center;
+}
+
+/*
+  ========================================
+  Input box and buttons
+  ========================================
+*/
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-code {
+    width: 150px;
+    height: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font: 12px avenir;
+    border: 2px solid #000;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    color: #fff;
+    background: #000;
+    font: 12px avenir;
+    border: none;
+}
+
+.btn:hover {
+    background: #ff5;
+    background: -webkit-linear-gradient(to right, #f9f, #ff5);
+    background:    -moz-linear-gradient(to right, #f9f, #ff5);
+    background:         linear-gradient(to right, #f9f, #ff5);
+}
+
+/*
+  ========================================
+  Room Typographic Code
+  ========================================
+*/
+
+.r-tc1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.r-tc1 a{
+    font-size: 40vh;
+    transform: scale(0.4, 3.3);
+    background: #fff; 
+}
+
+.r-tc2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20vh monospace;
+    background: #fff;
+}
+
+.r-tc3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 5em pixelnum, monospace;
+    background: #fff;
+}
+
+/*
+  ========================================
+  Room Color Box
+  ========================================
+*/
+
+.r-cb-bg {
+    width: 100vw;
+    height: 100vh;
+    background: #f75;
+    background: -webkit-linear-gradient(to right, #f5a, #f75);
+    background:    -moz-linear-gradient(to right, #f5a, #f75);
+    background:         linear-gradient(to right, #f5a, #f75);
+}
+
+.r-cb-wrap {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.r-cb-shade {
+    width: 3.125vw;
+    height: 100vh;
+    background: #f75;
+    background: -webkit-linear-gradient(to right, #f5a, #f75);
+    background:    -moz-linear-gradient(to right, #f5a, #f75);
+    background:         linear-gradient(to right, #f5a, #f75);
+    float: left;
+    z-index: 3;
+}
+
+.r-cb-shade:hover {
+    background: #afa;
+    background: -webkit-linear-gradient(to right, rgba(255,85,170,0), #afa);
+    background:    -moz-linear-gradient(to right, rgba(255,85,170,0), #afa);
+    background:         linear-gradient(to right, rgba(255,85,170,0), #afa);
+    cursor: pointer;
+    z-index: 3;
+}
+
+.r-cb-code {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 50em monospace;
+    z-index: 0;
+}
+
+/*
+  ========================================
+  Room Patched
+  ========================================
+*/
+
+.r-p-wrap {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.r-p-bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+}
+
+.r-p-blue {
+    position: relative;
+    width: 40vw;
+    height: 10vh;
+    background: #24e;
+    float: right;
+}
+
+.r-p-white-1 {
+    position: relative;
+    width: 80vw;
+    height: 35vh;
+    background: #fff;
+    float: right;
+}
+
+.r-p-yellow-1 {
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    background: #fc0;
+    background: -webkit-linear-gradient(to left, #fe9, #fc0);
+    background:    -moz-linear-gradient(to left, #fe9, #fc0);
+    background:         linear-gradient(to left, #fe9, #fc0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -20vh;
+    left: 10vw;
+}
+
+.r-p-white-2 {
+    position: relative;
+    width: 80vw;
+    height: 30vh;
+    background: #fff;
+    top: 30vh;
+    top: -15vh;
+
+}
+
+.r-p-yellow-2 {
+    position: relative;
+    width: 70vw;
+    height: 25vh;
+    background: #fc0;
+    background: -webkit-linear-gradient(to right, #fe9, #fc0);
+    background:    -moz-linear-gradient(to right, #fe9, #fc0);
+    background:         linear-gradient(to right, #fe9, #fc0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -35vh;
+    left: 25vw;
+}
+
+.r-p-calculation-1 {
+    position: relative;
+    widows: 100vw;
+    font-size: 17vh;
+    font-weight: 500;
+    font-family: avenir;
+    color: #000;
+    visibility: hidden;
+}
+
+.r-p-yellow-1:hover .r-p-calculation-1 {
+    visibility: visible;
+}
+
+.r-p-calculation-2 {
+    position: relative;
+    font-size: 17vh;
+    font-family: avenir;
+    font-weight: 500;
+    color: #000;
+    visibility: hidden;
+}
+
+.r-p-yellow-2:hover .r-p-calculation-2 {
+    visibility: visible;
+}
+
+/*
+  ========================================
+  Room Calculation
+  ========================================
+*/
+
+.r-c {
+    width: 100vw;
+    height: 100vh;
+    font: 7vh monospace;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.r-c a{
+    color: #d00;
+}
+
+/*
+  ========================================
+  Room Count Dots
+  ========================================
+*/
+
+.r-cd-wrap {
+    width: 100vw;
+    height: 100vh;
+    background: #24e;
+    background: -webkit-linear-gradient(to bottom, #4df, #24e);
+    background:    -moz-linear-gradient(to bottom, #4df, #24e);
+    background:         linear-gradient(to bottom, #4df, #24e);
+}
+
+.r-cd-dots {
+    position: absolute;
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    background: #24e;
+    background: -webkit-linear-gradient(to top, #4df, #24e);
+    background:    -moz-linear-gradient(to top, #4df, #24e);
+    background:         linear-gradient(to top, #4df, #24e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-cd-dots-in {
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    background: #24e;
+    background: -webkit-linear-gradient(to top, #f99, #f12);
+    background:    -moz-linear-gradient(to top, #f99, #f12);
+    background:         linear-gradient(to top, #f99, #f12);
+    text-align: center;
+    font-family: monospace;
+    visibility: hidden;
+}
+
+.r-cd-dots:hover .r-cd-dots-in{
+    visibility: visible;
+}
+
+@-webkit-keyframes r-cd-dots-in {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes r-cd-dots-in {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.r-cd-dots-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.r-cd-dots:hover .r-cd-dots-in {
+  -webkit-animation-name: r-cd-dots-in;
+          animation-name: r-cd-dots-in;
+  -webkit-animation-duration: 0.15s;
+          animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+
+.r-cd-dots-1 {
+    width: 12vw;
+    height: 12vw;
+    top: 10vh;
+    left: 5vw;
+}
+
+.r-cd-dots-in-1 {
+    width: 6vw;
+    height: 6vw;
+}
+
+.r-cd-dots-2 {
+    width: 3vw;
+    height: 3vw;
+    top: 20vh;
+    left: 37vw;
+}
+
+.r-cd-dots-in-2 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.r-cd-dots-3 {
+    width: 10vw;
+    height: 10vw;
+    top: 8vh;
+    left: 56vw;
+}
+
+.r-cd-dots-in-3 {
+    width: 5vw;
+    height: 5vw;
+}
+
+.r-cd-dots-4 {
+    width: 12vw;
+    height: 12vw;
+    top: 10vh;
+    left: 83vw;
+}
+
+.r-cd-dots-in-4 {
+    width: 6vw;
+    height: 6vw;
+}
+
+.r-cd-dots-5 {
+    width: 20vw;
+    height: 20vw;
+    top: 31vh;
+    left: 17vw;
+}
+
+.r-cd-dots-in-5 {
+    width: 10vw;
+    height: 10vw;
+}
+
+.r-cd-dots-6 {
+    width: 12vw;
+    height: 12vw;
+    top: 39vh;
+    left: 46vw;
+}
+
+.r-cd-dots-in-6 {
+    width: 6vw;
+    height: 6vw;
+}
+
+.r-cd-dots-7 {
+    width: 16vw;
+    height: 16vw;
+    top: 35vh;
+    left: 68vw;
+}
+
+.r-cd-dots-in-7 {
+    width: 8vw;
+    height: 8vw;
+}
+
+.r-cd-dots-8 {
+    width: 10vw;
+    height: 10vw;
+    top: 72vh;
+    left: 6vw;
+}
+
+.r-cd-dots-in-8 {
+    width: 5vw;
+    height: 5vw;
+}
+
+.r-cd-dots-9 {
+    width: 8vw;
+    height: 8vw;
+    top: 75vh;
+    left: 36vw;
+}
+
+.r-cd-dots-in-9 {
+    width: 4vw;
+    height: 4vw;
+}
+
+.r-cd-dots-10 {
+    width: 3vw;
+    height: 3vw;
+    top: 75vh;
+    left: 60vw;
+}
+
+.r-cd-dots-in-10 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.r-cd-dots-11 {
+    width: 12vw;
+    height: 12vw;
+    top: 70vh;
+    left: 80vw;
+}
+
+.r-cd-dots-in-11 {
+    width: 6vw;
+    height: 6vw;
+}
+
+/*
+  ========================================
+  Ending Congratulations
+  ========================================
+*/
+
+.end-wrap {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.end-word {
+    font: 700 15vw/15vw avenir;
+    text-align: center;
+    color: #f9f;
+}
+
+.end-word {
+    animation: change 0.5s linear 0s infinite;
+}
+
+@keyframes change {
+      0% {color:#f9f;}
+     25% {color:#a9f;}
+     50% {color:#af5;}
+     75% {color:#5ff;}
+    100% {color:#75f;}
+}
+
+.end-mark-up {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.end-mark {
+    margin: 1vh 3.105vw;
+    font: 700 10vw avenir;
+    color: #f9f;
+    display: inline-block;
+    float: left;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.end-mark {
+    animation: change 0.5s linear 0s infinite;
+}
+
+@keyframes change {
+      0% {color:#75f;}
+     25% {color:#5ff;}
+     50% {color:#af5;}
+     75% {color:#a9f;}
+    100% {color:#f9f;}
+}
+
+.end-mark-up {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.end-mark-down {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+
+@media all and (max-width: 980px) {  
+    .r-tc1 {
+        visibility: hidden;
+    }
+    
+    .r-cb-code {
+        font-size: 30em;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .r-tc1,
+    .r-tc2 {
+        visibility: hidden;
+    }
+    
+    .r-cb-code {
+        font-size: 15em;
+    }
+    
+    .end-mark {
+        visibility: visible;
+    }
+}
+
+@media all and (max-height: 300px) {
+    .end-mark {
+        visibility: hidden;
+    }
+}
+
+
+
+
+

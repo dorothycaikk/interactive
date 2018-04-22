@@ -52,6 +52,336 @@ table {
 
 
 
-h1 {
-    color:deeppink;
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+/*
+  ========================================
+  Font Declaration
+  ========================================
+*/
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.column-all {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.column-body {
+    display: flex;
+}
+
+.column-main {
+    display: flex;
+}
+
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+.number {
+    font: 500 10vw avenir;
+    padding-right: 2vw;
+}
+
+.title {
+    font: 500 5vw/6vw avenir;
+    padding-left: 1vw;
+}
+
+.content {
+    font: 500 2vw avenir;
+    text-decoration: none;
+    padding-left: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+
+
+
+
+/*
+  ========================================
+  Class
+  ========================================
+*/
+
+.column-1 {
+    width: 10vw;
+    height: 100vh;
+    border-right: 1vw solid #fff;
+    background: #000;
+    
+}
+
+.class-name-1 {
+    position: absolute;
+    font: 100 1vw avenir;
+    color: #fff;
+    padding-top: 2vh;
+    padding-left: 1vw;
+}
+
+.class-name-1 a{
+    font: 700 1vw avenir;
+    color: #fff;
+}
+
+.class-name-2 {
+    font: 100 12px avenir;
+    color: #fff;
+    visibility: hidden;
+}
+    
+.class-name-2 a{
+    font: 700 16px avenir;
+    color: #fff;
+ }
+
+
+/*
+  ========================================
+  Assignment 1
+  ========================================
+*/
+
+.a1 {
+    width: 40vw;
+    height: 70vh;
+    border: 10px solid #000;
+
+}
+
+.a1-number {
+    text-align: right;
+}
+
+
+
+/*
+  ========================================
+  Assignment 4
+  ========================================
+*/
+
+.a4 {
+    width: 40vw;
+    height: 30vh;
+    border: 10px solid #000;
+    border-top: none;
+    left: 69px;
+}
+
+.a4-number {
+    float: right;
+}
+
+.a4-title {
+    float: left;
+}
+
+
+/*
+  ========================================
+  My Name
+  ========================================
+*/
+
+.column-3 {
+    width: 20vw;
+    height: 100vh;
+    background: red;
+    display: flex;
+    align-items: flex-end;
+}
+
+.my-name {
+    width: 20vw;
+    font: 500 8vw avenir;
+    padding-left: 1vw;
+}
+
+
+/*
+  ========================================
+  Assignment 2
+  ========================================
+*/
+
+.a2 {
+    width: 30vw;
+    height: 50vh;
+    border: 10px solid #000;
+}
+
+.a2-number {
+    float: right;
+}
+
+.a2-content {
+    margin-top: 3vh;
+}
+
+.a2-box {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.a4-title {
+    padding-top: 1vw;
+}
+
+
+
+/*
+  ========================================
+  Assignment 3
+  ========================================
+*/
+
+.a3 {
+    width: 30vw;
+    height: 50vh;
+    border: 10px solid #000;
+    border-top: none;
+}
+
+.a3-number {
+    float: right;
+}
+
+.a3-title {
+    padding-top: 1vw;
+}
+
+
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+
+@media all and (max-width: 980px) {  
+    .column-1 {
+        flex: none;
+        width: 100vw;
+        height: 10vh;
+        border-bottom: 1vw solid #fff;
+        border-right: 0;
+    }
+    
+    .column-body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    
+    .column-2 {
+        flex: 1;
+    }
+    
+    .a1 {
+        width: 50vw;
+        height: 60vh;
+    }
+    
+    .a4 {
+        width: 50vw;
+        height: 30vh;
+    }
+    
+    .column-3 {
+        height: 90vh;
+    }
+    
+    .a2 {
+        height: 45vh;
+    }
+    
+    .a3 {
+        height: 45vh;
+    }
+    
+    .class-name-1 {
+        visibility: hidden;
+    }
+    
+    .class-name-2 {
+        font: 100 12px avenir;
+        color: #fff;
+        padding: 15px;
+        visibility: visible;
+    }
+    
+    
+}
+
+@media all and (max-width: 480px) {
+    .column-1 {
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    .a1 {
+        width: 45vw;
+        height: 60vh;
+    }
+    
+    .a4 {
+        width: 45vw;
+        height: 30vh;
+    }
+    
+    .column-3 {
+        height: 90vh;
+    }
+    
+    .a2 {
+        width: 35vw;
+        height: 45vh;
+    }
+    
+    .a3 {
+        width: 35vw;
+        height: 45vh;
+    }
+    
+}
+
+
+
+

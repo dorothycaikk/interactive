@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=”utf-8”>
+        <meta name="viewport" content="width=device-width">
+        <title>Home</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    
+    <body>
+        
+        <div class="home-bg">
+            <a class="home" href="../index.html">
+                Menu
+            </a>
+        </div>
+        
+        <div class="lobby">
+            
+            <section class="title">
+                escape
+            </section>
+            
+            <div class="container">
+        
+                <a class="lobby-door"></a>
+            
+                <a class="lobby-door"></a>
+            
+                <a class="lobby-door"></a>
+            
+                <a class="lobby-door"></a>
+                
+            </div>
+            
+            <div class="lb-d-wrap">
+            
+                <a class="lbd lb-d-1" href="room-typographic-code.html"></a>
+                
+                <a class="lbd lb-d-2" href="room-color-box.html"></a>
+                
+                <a class="lbd lb-d-3" href="room-patched.html"></a>
+                
+                <a class="lbd lb-d-4" href="room-calculation.html"></a>
+            
+            </div>
+            
+            
+            <section class="title">
+                escape
+            </section>
+        
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+        <script>  
+            $(function(){
+                // Create debug element
+                $("body").append("<div style='position:fixed;top:5px;left:5px;' id='viewportwidth'></div>");
+           
+                // Set contents on resizing window
+                $(window).resize(function(){$("#viewportwidth").html($(window).width());});
+           
+                // Trigger resize event
+                $(window).resize();
+            });
+        </script>
+    </body>
