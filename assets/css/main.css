@@ -82,7 +82,8 @@ table {
 
 .column-all {
     display: flex;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     flex-direction: column;
     overflow: hidden;
     
